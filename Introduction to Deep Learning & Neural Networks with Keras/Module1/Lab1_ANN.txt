@@ -1,0 +1,9 @@
+The weights are:  [0.79 0.4  0.41 0.71 0.11 0.39]
+The biases are:  [0.47 0.52 0.75]
+x1 is 0.5 and x2 is 0.85
+The weighted sum of the inputs at the first node in the hidden layer is 1.205
+The weighted sum of the inputs at the second node in the hidden layer is 1.3285
+The activation of the first node in the hidden layer is 0.7694130612287485
+The activation of the second node in the hidden layer is 0.7905924089545059
+The weighted sum of the inputs at the node in the output layer is 1.1429664762274196
+The output of the network for x1 = 0.5 and x2 = 0.85 is 0.7582238711991595
