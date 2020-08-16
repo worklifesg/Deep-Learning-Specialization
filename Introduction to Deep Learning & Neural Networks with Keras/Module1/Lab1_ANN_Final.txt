@@ -1,0 +1,8 @@
+The network is: 
+ {'layer_1': {'node_1': {'weights': array([0.16, 0.14, 0.52, 0.  , 0.47]), 'bias': array([0.28])}, 'node_2': {'weights': array([0.61, 0.22, 0.14, 0.04, 0.3 ]), 'bias': array([1.])}}, 'layer_2': {'node_1': {'weights': array([0.99, 0.05]), 'bias': array([0.09])}, 'node_2': {'weights': array([0.71, 0.03]), 'bias': array([0.88])}, 'node_3': {'weights': array([0.49, 0.31]), 'bias': array([0.21])}}, 'layer_3': {'node_1': {'weights': array([0.21, 0.06, 0.83]), 'bias': array([0.61])}, 'node_2': {'weights': array([0.75, 0.89, 0.34]), 'bias': array([0.71])}}, 'output': {'node_1': {'weights': array([0.44, 0.72]), 'bias': array([0.21])}, 'node_2': {'weights': array([0.41, 0.85]), 'bias': array([0.34])}, 'node_3': {'weights': array([0.79, 0.65]), 'bias': array([0.66])}}}
+The outputs of the nodes in hidden layer number 1 is [0.6336, 0.7883]
+The outputs of the nodes in hidden layer number 2 is [0.6806, 0.7947, 0.6824]
+The outputs of the nodes in hidden layer number 3 is [0.7969, 0.8966]
+Inputs are: 
+ [0.15 0.74 0.26 0.53 0.01]
+The predicted value by the network for the given input is [0.7696, 0.8067, 0.8667]
