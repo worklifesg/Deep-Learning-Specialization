@@ -1,0 +1,4 @@
+Inputs are: 
+ [0.15 0.74 0.26 0.53 0.01]
+The weighted sum at the first node in the hidden layer is 1.0638
+The output at the first node in the hidden layer is 0.7434
