@@ -1,4 +1,8 @@
 Inputs are: 
  [0.15 0.74 0.26 0.53 0.01]
-The weighted sum at the first node in the hidden layer is 1.0638
-The output at the first node in the hidden layer is 0.7434
+The weighted sum at the first node in the hidden layer is 1.6477
+The output at the first node in the hidden layer is 0.8386
+The outputs of the nodes in hidden layer number 1 is [0.8386, 0.8316, 0.7616]
+The outputs of the nodes in hidden layer number 2 is [0.8728, 0.8107]
+The outputs of the nodes in hidden layer number 3 is [0.7723, 0.7533, 0.631]
+The predicted value by the network for the given input is 0.9341
