@@ -60,3 +60,33 @@ def node_activation(weighted_sum):
 node_a_output=node_activation(compute_weighted_sum(inputs,node_weights,node_bias))
 with open ("Lab1_ANN_Compute.txt",'a') as f:
     print('The output at the first node in the hidden layer is {}'.format(np.around(node_a_output[0], decimals=4)),file=f)
+
+## We define forward_propagate function to combine both calculations for outputs of all nodes of every hidden layer
+
+def forward_propagate(network,inputs):
+    layer_inputs=list(inputs) 
+
+    for layer in network:
+        layer_data=network[layer]
+        layer_outputs=[]
+
+        for layer_node in layer_data:
+            node_data=layer_data[layer_node]
+
+            node_output = node_activation(compute_weighted_sum(layer_inputs, node_data['weights'], node_data['bias']))
+            layer_outputs.append(np.around(node_output[0], decimals=4))
+        
+        if layer !='output':
+            with open ("Lab1_ANN_Compute.txt",'a') as f:
+                print('The outputs of the nodes in hidden layer number {} is {}'.format(layer.split('_')[1], layer_outputs),file=f)
+        
+        layer_inputs = layer_outputs
+
+    network_predictions=layer_outputs
+    return network_predictions
+
+# Exercise - Print the predictions using forward_propagate function
+
+predictions = forward_propagate(small_network, inputs)
+with open ("Lab1_ANN_Compute.txt",'a') as f:
+    print('The predicted value by the network for the given input is {}'.format(np.around(predictions[0], decimals=4)),file=f)
