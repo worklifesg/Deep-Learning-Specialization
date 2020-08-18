@@ -3,6 +3,7 @@
 ## Table of Content
   * [Gradient Descent](#gradient-descent)
   * [Backpropagation](#backpropagation)
+  * [Vanishing Gradient Problem](#vanishing-gradient-problem)
 
 ### Gradient Descent
   * It is an iterative apporach to find the minimum of the function. Derivative of the function is evaluated and the cost function is minimized to find the optimized parameter. The cost function is defined as:
@@ -123,3 +124,9 @@ b_1&= b_1-\eta . \dfrac{\partial E}{\partial b_1}\\
 &=b_1-\eta . \dfrac{\partial E}{\partial a_2}\dfrac{\partial a_2}{\partial z_2}\dfrac{\partial z_2}{\partial a_1}\dfrac{\partial a_1}{\partial z_1}\dfrac{\partial z_1}{\partial b_1}\\
 &=b_1-\eta . \bigg[-(T-a_2).(a_2(1-a_2)).(w_2).(a_1(1-a_1)).1\bigg]
 \end{align*}](https://latex.codecogs.com/gif.latex?\begin{align*}&space;E&=\dfrac{1}{2}\bigg(T-a_2\bigg)^2&space;\longrightarrow&space;\dfrac{\partial&space;E}{\partial&space;a_2}\\&space;a_2&=f(z_2)=\dfrac{1}{1&plus;e^{-z_2}}&space;\longrightarrow&space;\dfrac{\partial&space;a_2}{\partial&space;z_2}\\&space;z_2&=a_1w_2&plus;b_2&space;\longrightarrow&space;\dfrac{\partial&space;z_2}{\partial&space;a_1}\\&space;\qquad\\&space;a_1&=f(z_1)=\dfrac{1}{1&plus;e^{-z_1}}&space;\longrightarrow&space;\dfrac{\partial&space;a_1}{\partial&space;z_1}\\&space;z_1&=x_1w_1&plus;b_1&space;\longrightarrow&space;\dfrac{\partial&space;z_1}{\partial&space;b_1}\\&space;\qquad\\&space;b_1&=&space;b_1-\eta&space;.&space;\dfrac{\partial&space;E}{\partial&space;b_1}\\&space;&=b_1-\eta&space;.&space;\dfrac{\partial&space;E}{\partial&space;a_2}\dfrac{\partial&space;a_2}{\partial&space;z_2}\dfrac{\partial&space;z_2}{\partial&space;a_1}\dfrac{\partial&space;a_1}{\partial&space;z_1}\dfrac{\partial&space;z_1}{\partial&space;b_1}\\&space;&=b_1-\eta&space;.&space;\bigg[-(T-a_2).(a_2(1-a_2)).(w_2).(a_1(1-a_1)).1\bigg]&space;\end{align*})
+
+
+### Vanishing Gradient Problem
+
+ * Using sigmoid function, the gradient is very small as it always lie between [0,1]. However, in back propagation, we multiply factors so their gradients get smaller and smaller when we move back into the network.
+ * Therefore, neurons in the early layers learn SLOWLY as compared to neurons in the later layers. Thus by using SIGMOID function or similar activation functions, there is a vanishing gradient problem and we avoid using such functions.
