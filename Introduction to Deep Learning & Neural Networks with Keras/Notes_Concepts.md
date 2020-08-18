@@ -46,7 +46,7 @@
        1. Calculate Error between T and a<sub>n</sub> (not cost function or error function)
        2. Propagate this error back into the network and perform Gradient Descent of the weights and biases to optimize them.
     ```
- * Example - One input with two hidden layers and one output as shown in figure below
+ * Example - One input with two hidden layers and one output as shown in figure below. Also see simple calculation using 'sympy' module in Back_propagation_example.py file and its results in back_propagation_example_results.txt
 
 
 <p align="center">
