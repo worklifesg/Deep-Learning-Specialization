@@ -1,0 +1,246 @@
+   Cement  Blast Furnace Slag  Fly Ash  Water  Superplasticizer  Coarse Aggregate  Fine Aggregate  Age  Strength
+0   540.0                 0.0      0.0  162.0               2.5            1040.0           676.0   28     79.99
+1   540.0                 0.0      0.0  162.0               2.5            1055.0           676.0   28     61.89
+2   332.5               142.5      0.0  228.0               0.0             932.0           594.0  270     40.27
+3   332.5               142.5      0.0  228.0               0.0             932.0           594.0  365     41.05
+4   198.6               132.4      0.0  192.0               0.0             978.4           825.5  360     44.30
+(1030, 9)
+            Cement  Blast Furnace Slag      Fly Ash        Water  Superplasticizer  Coarse Aggregate  Fine Aggregate          Age     Strength
+count  1030.000000         1030.000000  1030.000000  1030.000000       1030.000000       1030.000000     1030.000000  1030.000000  1030.000000
+mean    281.167864           73.895825    54.188350   181.567282          6.204660        972.918932      773.580485    45.662136    35.817961
+std     104.506364           86.279342    63.997004    21.354219          5.973841         77.753954       80.175980    63.169912    16.705742
+min     102.000000            0.000000     0.000000   121.800000          0.000000        801.000000      594.000000     1.000000     2.330000
+25%     192.375000            0.000000     0.000000   164.900000          0.000000        932.000000      730.950000     7.000000    23.710000
+50%     272.900000           22.000000     0.000000   185.000000          6.400000        968.000000      779.500000    28.000000    34.445000
+75%     350.000000          142.950000   118.300000   192.000000         10.200000       1029.400000      824.000000    56.000000    46.135000
+max     540.000000          359.400000   200.100000   247.000000         32.200000       1145.000000      992.600000   365.000000    82.600000
+Cement                0
+Blast Furnace Slag    0
+Fly Ash               0
+Water                 0
+Superplasticizer      0
+Coarse Aggregate      0
+Fine Aggregate        0
+Age                   0
+Strength              0
+dtype: int64
+   Cement  Blast Furnace Slag  Fly Ash  Water  Superplasticizer  Coarse Aggregate  Fine Aggregate  Age
+0   540.0                 0.0      0.0  162.0               2.5            1040.0           676.0   28
+1   540.0                 0.0      0.0  162.0               2.5            1055.0           676.0   28
+2   332.5               142.5      0.0  228.0               0.0             932.0           594.0  270
+3   332.5               142.5      0.0  228.0               0.0             932.0           594.0  365
+4   198.6               132.4      0.0  192.0               0.0             978.4           825.5  360
+0    79.99
+1    61.89
+2    40.27
+3    41.05
+4    44.30
+Name: Strength, dtype: float64
+     Cement  Blast Furnace Slag   Fly Ash     Water  Superplasticizer  Coarse Aggregate  Fine Aggregate       Age
+0  2.476712           -0.856472 -0.846733 -0.916319         -0.620147          0.862735       -1.217079 -0.279597
+1  2.476712           -0.856472 -0.846733 -0.916319         -0.620147          1.055651       -1.217079 -0.279597
+2  0.491187            0.795140 -0.846733  2.174405         -1.038638         -0.526262       -2.239829  3.551340
+3  0.491187            0.795140 -0.846733  2.174405         -1.038638         -0.526262       -2.239829  5.055221
+4 -0.790075            0.678079 -0.846733  0.488555         -1.038638          0.070492        0.647569  4.976069
+No. of predictors:  8
+<tensorflow.python.keras.callbacks.History object at 0x0000024461E93520>
+Epoch 1/100
+23/23 - 0s - loss: 1651.5399 - val_loss: 1151.4885
+Epoch 2/100
+23/23 - 0s - loss: 1533.6176 - val_loss: 1035.4189
+Epoch 3/100
+23/23 - 0s - loss: 1325.2484 - val_loss: 846.6718
+Epoch 4/100
+23/23 - 0s - loss: 998.9344 - val_loss: 597.9323
+Epoch 5/100
+23/23 - 0s - loss: 620.3211 - val_loss: 351.9719
+Epoch 6/100
+23/23 - 0s - loss: 345.6382 - val_loss: 212.2644
+Epoch 7/100
+23/23 - 0s - loss: 252.8392 - val_loss: 184.5499
+Epoch 8/100
+23/23 - 0s - loss: 228.5226 - val_loss: 179.8547
+Epoch 9/100
+23/23 - 0s - loss: 214.6608 - val_loss: 176.5598
+Epoch 10/100
+23/23 - 0s - loss: 204.4721 - val_loss: 174.7657
+Epoch 11/100
+23/23 - 0s - loss: 197.2223 - val_loss: 168.8441
+Epoch 12/100
+23/23 - 0s - loss: 189.8345 - val_loss: 170.9913
+Epoch 13/100
+23/23 - 0s - loss: 183.7619 - val_loss: 166.4530
+Epoch 14/100
+23/23 - 0s - loss: 177.9839 - val_loss: 162.2101
+Epoch 15/100
+23/23 - 0s - loss: 173.3024 - val_loss: 158.9922
+Epoch 16/100
+23/23 - 0s - loss: 169.8185 - val_loss: 159.9006
+Epoch 17/100
+23/23 - 0s - loss: 165.7239 - val_loss: 155.9085
+Epoch 18/100
+23/23 - 0s - loss: 162.6827 - val_loss: 154.3893
+Epoch 19/100
+23/23 - 0s - loss: 159.4236 - val_loss: 154.5167
+Epoch 20/100
+23/23 - 0s - loss: 156.3505 - val_loss: 152.4762
+Epoch 21/100
+23/23 - 0s - loss: 154.2904 - val_loss: 150.0701
+Epoch 22/100
+23/23 - 0s - loss: 152.0989 - val_loss: 149.2272
+Epoch 23/100
+23/23 - 0s - loss: 150.3400 - val_loss: 149.3735
+Epoch 24/100
+23/23 - 0s - loss: 148.5389 - val_loss: 144.9236
+Epoch 25/100
+23/23 - 0s - loss: 147.3444 - val_loss: 147.4200
+Epoch 26/100
+23/23 - 0s - loss: 145.1759 - val_loss: 146.9283
+Epoch 27/100
+23/23 - 0s - loss: 143.6155 - val_loss: 146.4023
+Epoch 28/100
+23/23 - 0s - loss: 142.7618 - val_loss: 145.4205
+Epoch 29/100
+23/23 - 0s - loss: 140.8669 - val_loss: 146.2236
+Epoch 30/100
+23/23 - 0s - loss: 139.4873 - val_loss: 146.6897
+Epoch 31/100
+23/23 - 0s - loss: 138.4133 - val_loss: 143.5605
+Epoch 32/100
+23/23 - 0s - loss: 136.0811 - val_loss: 145.4736
+Epoch 33/100
+23/23 - 0s - loss: 134.7912 - val_loss: 143.0302
+Epoch 34/100
+23/23 - 0s - loss: 133.4832 - val_loss: 142.1334
+Epoch 35/100
+23/23 - 0s - loss: 132.2878 - val_loss: 144.8956
+Epoch 36/100
+23/23 - 0s - loss: 130.7227 - val_loss: 140.2787
+Epoch 37/100
+23/23 - 0s - loss: 129.3220 - val_loss: 141.1824
+Epoch 38/100
+23/23 - 0s - loss: 127.7817 - val_loss: 140.8842
+Epoch 39/100
+23/23 - 0s - loss: 126.7838 - val_loss: 142.1216
+Epoch 40/100
+23/23 - 0s - loss: 125.1856 - val_loss: 141.8111
+Epoch 41/100
+23/23 - 0s - loss: 123.5148 - val_loss: 139.3895
+Epoch 42/100
+23/23 - 0s - loss: 122.5991 - val_loss: 140.0117
+Epoch 43/100
+23/23 - 0s - loss: 121.2659 - val_loss: 137.7184
+Epoch 44/100
+23/23 - 0s - loss: 120.6385 - val_loss: 138.7198
+Epoch 45/100
+23/23 - 0s - loss: 117.8080 - val_loss: 139.2431
+Epoch 46/100
+23/23 - 0s - loss: 116.3472 - val_loss: 138.2366
+Epoch 47/100
+23/23 - 0s - loss: 114.5244 - val_loss: 136.3247
+Epoch 48/100
+23/23 - 0s - loss: 112.1810 - val_loss: 135.9007
+Epoch 49/100
+23/23 - 0s - loss: 110.3459 - val_loss: 133.7147
+Epoch 50/100
+23/23 - 0s - loss: 109.1203 - val_loss: 134.5282
+Epoch 51/100
+23/23 - 0s - loss: 106.6414 - val_loss: 133.1859
+Epoch 52/100
+23/23 - 0s - loss: 105.2290 - val_loss: 128.2583
+Epoch 53/100
+23/23 - 0s - loss: 103.3696 - val_loss: 133.5084
+Epoch 54/100
+23/23 - 0s - loss: 100.6439 - val_loss: 127.9863
+Epoch 55/100
+23/23 - 0s - loss: 97.7380 - val_loss: 135.3997
+Epoch 56/100
+23/23 - 0s - loss: 95.9025 - val_loss: 126.9003
+Epoch 57/100
+23/23 - 0s - loss: 93.1277 - val_loss: 127.1271
+Epoch 58/100
+23/23 - 0s - loss: 90.5773 - val_loss: 124.0283
+Epoch 59/100
+23/23 - 0s - loss: 88.9171 - val_loss: 124.0126
+Epoch 60/100
+23/23 - 0s - loss: 85.8075 - val_loss: 122.6105
+Epoch 61/100
+23/23 - 0s - loss: 83.5698 - val_loss: 122.6089
+Epoch 62/100
+23/23 - 0s - loss: 80.4815 - val_loss: 122.3813
+Epoch 63/100
+23/23 - 0s - loss: 78.3208 - val_loss: 121.6851
+Epoch 64/100
+23/23 - 0s - loss: 76.5335 - val_loss: 116.2888
+Epoch 65/100
+23/23 - 0s - loss: 74.1090 - val_loss: 118.9754
+Epoch 66/100
+23/23 - 0s - loss: 71.5987 - val_loss: 118.9021
+Epoch 67/100
+23/23 - 0s - loss: 69.9384 - val_loss: 114.5301
+Epoch 68/100
+23/23 - 0s - loss: 67.9764 - val_loss: 118.0078
+Epoch 69/100
+23/23 - 0s - loss: 66.3239 - val_loss: 114.9717
+Epoch 70/100
+23/23 - 0s - loss: 63.2966 - val_loss: 116.9193
+Epoch 71/100
+23/23 - 0s - loss: 62.0482 - val_loss: 116.4101
+Epoch 72/100
+23/23 - 0s - loss: 59.8671 - val_loss: 110.8073
+Epoch 73/100
+23/23 - 0s - loss: 58.5697 - val_loss: 113.5200
+Epoch 74/100
+23/23 - 0s - loss: 56.8652 - val_loss: 117.0800
+Epoch 75/100
+23/23 - 0s - loss: 55.3435 - val_loss: 111.0922
+Epoch 76/100
+23/23 - 0s - loss: 54.0905 - val_loss: 115.6156
+Epoch 77/100
+23/23 - 0s - loss: 52.5824 - val_loss: 115.1053
+Epoch 78/100
+23/23 - 0s - loss: 51.2188 - val_loss: 117.5180
+Epoch 79/100
+23/23 - 0s - loss: 49.9783 - val_loss: 111.6271
+Epoch 80/100
+23/23 - 0s - loss: 48.6946 - val_loss: 112.9990
+Epoch 81/100
+23/23 - 0s - loss: 47.7696 - val_loss: 120.5339
+Epoch 82/100
+23/23 - 0s - loss: 47.5463 - val_loss: 110.4558
+Epoch 83/100
+23/23 - 0s - loss: 46.0910 - val_loss: 110.3571
+Epoch 84/100
+23/23 - 0s - loss: 45.2094 - val_loss: 115.9741
+Epoch 85/100
+23/23 - 0s - loss: 43.8182 - val_loss: 114.6166
+Epoch 86/100
+23/23 - 0s - loss: 43.0450 - val_loss: 110.5675
+Epoch 87/100
+23/23 - 0s - loss: 42.7282 - val_loss: 113.3421
+Epoch 88/100
+23/23 - 0s - loss: 41.7824 - val_loss: 124.6000
+Epoch 89/100
+23/23 - 0s - loss: 42.1973 - val_loss: 106.1909
+Epoch 90/100
+23/23 - 0s - loss: 40.5649 - val_loss: 123.2750
+Epoch 91/100
+23/23 - 0s - loss: 39.9833 - val_loss: 112.0996
+Epoch 92/100
+23/23 - 0s - loss: 39.4582 - val_loss: 119.0072
+Epoch 93/100
+23/23 - 0s - loss: 38.7313 - val_loss: 109.4714
+Epoch 94/100
+23/23 - 0s - loss: 39.0595 - val_loss: 117.4374
+Epoch 95/100
+23/23 - 0s - loss: 38.1507 - val_loss: 123.3071
+Epoch 96/100
+23/23 - 0s - loss: 37.9412 - val_loss: 124.2023
+Epoch 97/100
+23/23 - 0s - loss: 37.6663 - val_loss: 111.4323
+Epoch 98/100
+23/23 - 0s - loss: 36.9734 - val_loss: 118.2249
+Epoch 99/100
+23/23 - 0s - loss: 36.4053 - val_loss: 120.3682
+Epoch 100/100
+23/23 - 0s - loss: 35.8215 - val_loss: 120.7604
