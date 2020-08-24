@@ -1,0 +1,7 @@
+10
+Using single CNN and pooling layer: 
+ Accuracy: 0.9864000082015991 
+ Error: 1.359999179840088
+Using two CNN and pooling layers: 
+ Accuracy: 0.9887999892234802 
+ Error: 1.1200010776519775
