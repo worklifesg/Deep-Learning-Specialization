@@ -4,6 +4,7 @@ Basically, it covers Forward Propagation technique through which the data is pas
 * Module 2 consisits of deep learning concepts that are given in 'Notes_Concepts.d' file and basic backpropagation example where it's python code and results file in stored in Module 1.
 * Module 3 consists of Regression and Classification models with Keras
 * Module 4 features supervised and un-supervised deep learning models such as Convolution Neural Networks (CNN) - Supervised, Recurrent Neural networks (RNN) - Supervised and Autoencoders - Unsupervised.
+* Module 5 - Final Assignment
 
 ## Table of contents
 * [Forward Propagation](#forward-propagation)
@@ -11,6 +12,7 @@ Basically, it covers Forward Propagation technique through which the data is pas
 * [Regression with Keras](#regression-with-keras)
 * [Classification with Keras](#classification-with-keras)
 * [Convolution Neural Networks](#convolution-neural-networks)
+* [Final Assignment](#final-assignment)
 
 ### Forward Propagation
 
@@ -53,3 +55,14 @@ Basically, it covers Forward Propagation technique through which the data is pas
 * The MNIST database, short for Modified National Institute of Standards and Technology database, is a large database of handwritten digits that is commonly used for training various image processing systems. The database is also widely used for training and testing in the field of machine learning.
 * The MNIST database contains 60,000 training images and 10,000 testing images of digits written by high school students and employees of the United States Census Bureau.
 * Output file: DL_CNN_Keras.txt
+
+### Final Assignment
+
+In this course project, you will build a regression model using the deep learning Keras library, and then you will experiment with increasing
+the number of training epochs and changing number of hidden layers and you will see how changing these parameters impacts the performance of the model.
+
+ * Python files (.ipynb)
+   * Part A - Peer Graded Final Assignment Part A.ipynb
+   * Part B - Peer Graded Final Assignment Part B.ipynb
+   * Part C - Peer Graded Final Assignment Part C.ipynb
+   * Part D - Peer Graded Final Assignment Part D.ipynb
