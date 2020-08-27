@@ -3,7 +3,8 @@
 ## Table of contents
 * [General info](#general-info)
 * [Code setup Information](#code-setup-information)
-* [Introduction to Deep Learning & Neural Networks with Keras](#introduction-to-deep-learning-&-neural-networks-with-keras)
+* [Introduction to Deep Learning and Neural Networks with Keras](#introduction-to-deep-learning-and-neural-networks-with-keras)
+* [Building Deep Learning Models with TensorFlow](#building-deep-learning-models-with-tensorflow)
 
 ## General info
 This repository is on Deep Learning Specialization using Python 3.8.3 on Visual Studio Code. Most of the programs are from IBM AI Engineering are presenterd only for learning purpose.
@@ -14,7 +15,7 @@ This repository is on Deep Learning Specialization using Python 3.8.3 on Visual 
 * Output results are written in text file (.txt)
 * The illustrations are saved as eps and using latex, each documentation is created as .pdf
 
-## Introduction to Deep Learning & Neural Networks with Keras
+## Introduction to Deep Learning and Neural Networks with Keras
 
 This course focuses on the concept of Deep Learning using the idea of Artificial Neural Networks (ANN). Along with fundamental concepts, ANN techniques such as Forward Propagation, 
 Gradient Descent, Backpropagation, Vanishing Gradient, Activation Functions are explained in this course. There are 5 modules in this course.
@@ -25,6 +26,25 @@ Gradient Descent, Backpropagation, Vanishing Gradient, Activation Functions are 
 * Module 4 - Deep Learning Models
 * Module 5 - Course Assignment
 
+## Building Deep Learning Models with TensorFlow
+
+This course focuses on the general machine learning and deep learning algorithms using TensorFlow. It consists of general mathematical concepts, supervised learning like Convolution Neural Networks (CNN), Recurrent Neural Networks (RNNs) and unsupervised learning concepts like Restricted Boltzmann Machines (RBMs) and Autoencoders.
+
+Applications of above concepts are:
+```
+   Object Recognition - CNN
+   Handwritten Notes - CNN
+   Natural Language Processing (NLP) - Sequential data and RNN
+   Pattern Detection - RBMs
+   Movie Recommendation System - Autoencoder
+```
+There are 5 modules in this course.
+
+* Module 1 - Introduction to TensorFlow
+* Module 2 - Convolutional Neural Networks (CNNs)
+* Module 3 - Recurrent Neural Networks (RNNs)
+* Module 4 - Restricted Boltzmann Machines (RBMs)
+* Module 5 - Autoencoders
 ------------------------------------------------------------------------------------------------
 Note: Each program is compiled along with output log file and results in pdf using latex.
 
