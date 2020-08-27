@@ -17,7 +17,7 @@ Basically, it covers Forward Propagation technique through which the data is pas
 ### Forward Propagation
 
 * Python files: 
-  * Lab1_ANN_Networks.txt
+  * Lab1_ANN_Networks.py
   * Lab1_Artificial_Neural_Networks_Calculation.py
   * Lab1_Artificial_Neural_Networks_Final_Code.py
   * Lab1_Artificial_Neural_Networks_Networks.py
