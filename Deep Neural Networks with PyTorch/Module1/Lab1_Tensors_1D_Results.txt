@@ -1,0 +1,82 @@
+Integer to tensor: 
+
+Dtype of tensor after converting it to tensor torch.int64
+Type of tensor after converting it to tensor torch.LongTensor
+
+
+Float to tensor: 
+
+The dtype of tensor object after converting it to tensor:  torch.float32
+The type of tensor object after converting it to tensor:  torch.FloatTensor
+
+
+Float to Integer: 
+
+The dtype of tensor is :  torch.int64
+The type of tensor is :  torch.LongTensor
+
+
+Integer to float(method): 
+
+The type of new_float_tensor is :  torch.FloatTensor
+
+
+Integer to float(Another method): 
+
+The type of new_float_tensor1 is :  torch.FloatTensor
+
+
+Size,Dimension,Reshaping 
+
+The size of new_float_tensor1 is :  torch.Size([5])
+The dimension of new_float_tensor1 is :  1
+The original size new_float_tensor1 is :  tensor([0., 1., 2., 3., 4.])
+The modified of new_float_tensor1 is : 
+  tensor([[0.],
+        [1.],
+        [2.],
+        [3.],
+        [4.]])
+
+
+Reshaping using general and dynamic form (-1) 
+
+The original size new_float_tensor1 is :  tensor([0., 1., 2., 3., 4.])
+The modified of new_float_tensor1 is : 
+  tensor([[0.],
+        [1.],
+        [2.],
+        [3.],
+        [4.]])
+The modified of new_float_tensor1 using  is : 
+  tensor([[0.],
+        [1.],
+        [2.],
+        [3.],
+        [4.]])
+The size of twoD_float_tensor1 is :  torch.Size([5, 1])
+The dimension of twoD_float_tensor1 is :  2
+
+
+Numpy <--> Tensor: 
+
+The dtype of new tensor is :  torch.float64
+The type of new tensor is :  torch.DoubleTensor
+The dtype of numpy from tensor is :  float64
+The numpy array from tensor is :  [0. 1. 2. 3. 4.]
+
+
+Pandas <--> Tensor: 
+
+The new tensor from numpy array:  tensor([ 0.1000,  0.2000,  0.3000, 10.1000], dtype=torch.float64)
+The dtype of new tensor:  torch.float64
+The type of new tensor:  torch.DoubleTensor
+
+
+Illustration of .item and .tolist: 
+
+The first item is given by:  0  The first rensor value is given by:  tensor(0)
+The first item is given by:  1  The first rensor value is given by:  tensor(1)
+The first item is given by:  2  The first rensor value is given by:  tensor(2)
+Tensor:  tensor([0, 1, 2, 3]) 
+list: [0, 1, 2, 3]
