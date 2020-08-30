@@ -1,0 +1,42 @@
+Indexing: 
+
+The value on index 0:  tensor(0)
+The value on index 1:  tensor(1)
+The value on index 2:  tensor(2)
+The value on index 3:  tensor(3)
+The value on index 4:  tensor(4)
+
+
+Indexing Change: 
+
+The value on index 0:  tensor(20)
+The modified tensor:  tensor([100,   1,   2,   3,   4])
+
+
+Indexing Change: 
+
+The value on index 4:  tensor(4)
+The modified tensor:  tensor([100,   1,   2,   3,   0])
+
+
+Slicing: 
+
+Original Tensor:  tensor([100,   1,   2,   3,   0])
+Modified Tensor:  tensor([1, 2, 3])
+
+
+Indexing and Slicing: 
+
+Intial value of index 3 and 4:  tensor([3, 0])
+Modified Tensor:  tensor([100,   1,   2, 300, 400])
+
+
+Functions: 
+
+Mean:  tensor(3.)
+Standard Deviation:  tensor(2.)
+Max:  tensor(5.)
+Min:  tensor(1.)
+Result of pi tensor (sin):  tensor([ 0.0000e+00,  1.0000e+00, -8.7423e-08])
+
+
