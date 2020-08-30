@@ -15,7 +15,7 @@ In this lab, we will learn the basics of tensor operations. Tensors are an essen
   * Lab1_1DTensors_Part2.py - 1D Tensors (Indexing/Slicing, Functions)
 * Output file: 
   * Lab1_Tensors_1D_Results.txt - Part 1
-  * Lab1_Tensors_1D_Results_2.txt - Part 2
+  * Lab1_Tensors_1D_Results_2.txt and [Graphs](https://github.com/worklifesg/Deep-Learning-Specialization-In-Progress-/blob/master/Deep%20Neural%20Networks%20with%20PyTorch/Module1/Lab1_1DTensors_Graphs.pdf)- Part 2 
 
 ### Module1- Derivatives in PyTorch
 
