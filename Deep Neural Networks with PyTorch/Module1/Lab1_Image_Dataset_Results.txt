@@ -1,0 +1,17 @@
+     category             image
+0  Ankle boot  img/fashion0.png
+1     T-shirt  img/fashion1.png
+2     T-shirt  img/fashion2.png
+3       Dress  img/fashion3.png
+4     T-shirt  img/fashion4.png
+File name for 1st row: img/fashion0.png
+Class value for 1st row, y:  Ankle boot
+File name for 2nd row: img/fashion1.png
+Class value for 2nd row, y:  T-shirt
+The total number of rows:  60000
+
+
+Image_name 2:  img/fashion1.png
+Image_path 2:  img/fashion1.png
+Image_name 20:  img/fashion19.png
+Image_path 20:  img/fashion19.png
