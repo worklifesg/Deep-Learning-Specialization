@@ -12,6 +12,6 @@ operations, Linear Regression, and Logistic Regression
   * Lab1_TensorFlow_LinearRegression.py
 * Output file: 
   * Lab1_TensorFlow_HelloWorld
-  * Lab1_TensorFlow_LinearRegression.txt and [Graphs](https://github.com/worklifesg/Deep-Learning-Specialization-In-Progress-/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module1/Lab1_TensorFlow_LinearRegression_Graphs.pdf) 
+  * Lab1_TensorFlow_LinearRegression.txt and [Graphs](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module1/Lab1_TensorFlow_LinearRegression_Graphs.pdf) 
 * Dataset Files:
-  * Linear Regression - [Fuel Consumption CO2](https://github.com/worklifesg/Deep-Learning-Specialization-In-Progress-/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module1/FuelConsumptionCo2.csv)
+  * Linear Regression - [Fuel Consumption CO2](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module1/FuelConsumptionCo2.csv)
