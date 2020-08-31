@@ -51,7 +51,7 @@
 
 
 <p align="center">
-  <img width="600" alt="java 8 and prio java 8  array review example" img align="center" src ="https://github.com/worklifesg/Deep-Learning-Specialization-In-Progress-/blob/master/images/Back_propagation.png">
+  <img width="600" alt="java 8 and prio java 8  array review example" img align="center" src ="https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/images/Back_propagation.png">
 </p> 
 
  
