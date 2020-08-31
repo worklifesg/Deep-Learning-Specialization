@@ -1,0 +1,35 @@
+Derivative Results: 
+
+The tensor x:  tensor(2., requires_grad=True)
+The result of y=x^2:  tensor(4., grad_fn=<PowBackward0>)
+The derivative at the value x = 2:  tensor(4.)
+
+
+Tensor x Attributes and Values: 
+
+data: tensor(2.)
+grad_fn: None
+grad: tensor(4.)
+is_leaf: True
+requires_grad: True
+-----------------------------------------------
+Derivatives of y Attributes and Values: 
+
+data: tensor(4.)
+grad_fn: <PowBackward0 object at 0x000001EBE1E66D00>
+grad: None
+is_leaf: False
+requires_grad: True
+
+
+Derivative Results using SQ Class: 
+
+The derivative at the value x = 2:  tensor(4.)
+
+
+Partial Derivative Results: 
+
+The partial derivative wrt u:  tensor(4.)
+The partial derivative wrt v:  tensor(1.)
+
+
