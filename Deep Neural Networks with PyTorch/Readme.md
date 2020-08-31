@@ -6,6 +6,7 @@
 * [Module1 Tensors 1D and 2D](#module1-tensors-1d-and-2d)
 * [Module1 Derivatives in PyTorch](#module1-derivatives-in-pytorch)
 * [Module1 Dataset Class, Transform, Compose](#module1-dataset-class-transform-compose)
+* [Module1 Dataset Images](#module1-dataset-images)
 
 ### Module1 Tensors 1D and 2D
 
@@ -32,3 +33,9 @@ In this lab, we will learn how to build dataset classes, use 'Transform' functio
 
 * Python files: Lab1_Dataset_Class_Transform_Compose.py
 * Output file: Lab1_Dataset_Class_Results.txt
+
+### Module1 Dataset Images
+In this lab, we will learn how to build dataset classes for images.
+
+* Python files: Lab1_Image_Dataset_Transforms.py
+* Output file: Lab1_Image_Dataset_Results.txt and [Images Plot](https://github.com/worklifesg/Deep-Learning-Specialization-In-Progress-/blob/master/Deep%20Neural%20Networks%20with%20PyTorch/Module1/Lab1_Dataset_Images_Graphs.pdf)
