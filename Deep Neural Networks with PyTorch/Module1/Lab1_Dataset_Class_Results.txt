@@ -1,0 +1,80 @@
+Class Toyset Test: 
+
+Our toy_set object:  <__main__.toy_set object at 0x00000210AD44B880>
+Value on index 0 of our toy_set object:  (tensor([2., 2.]), tensor([1.]))
+Our toy_set length:  100
+
+
+First 3 elements in dataset: 
+
+Index:  0 ; x:  tensor([2., 2.]) ; y:  tensor([1.])
+Index:  1 ; x:  tensor([2., 2.]) ; y:  tensor([1.])
+Index:  2 ; x:  tensor([2., 2.]) ; y:  tensor([1.])
+
+
+First 10 elements in dataset: 
+
+Index:  0 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  0 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  1 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  1 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  2 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  2 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  3 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  3 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  4 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  4 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  5 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  5 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  6 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  6 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  7 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  7 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  8 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  8 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  9 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  9 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+-----------------------------------------------------------------
+First 10 elements in dataset by directly transforming in dataset: 
+
+Index:  0 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  0 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  1 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  1 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  2 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  2 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  3 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  3 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  4 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  4 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  5 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  5 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  6 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  6 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  7 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  7 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  8 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  8 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  9 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  9 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+
+
+Data Transform (Multiple): 
+
+Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Transformed x_: tensor([300., 300.]) Transformed y_: tensor([200.])
+-----------------------------------------------------
+
+
+Index:  0 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  0 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  0 Compose Transformed x_co:  tensor([300., 300.]) Compose Transformed y_co:  tensor([200.])
+-----------------------------------------------------
+Index:  1 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  1 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  1 Compose Transformed x_co:  tensor([300., 300.]) Compose Transformed y_co:  tensor([200.])
+-----------------------------------------------------
+Index:  2 Original x:  tensor([2., 2.]) Original y:  tensor([1.])
+Index:  2 Transformed x_: tensor([3., 3.]) Transformed y_: tensor([2.])
+Index:  2 Compose Transformed x_co:  tensor([300., 300.]) Compose Transformed y_co:  tensor([200.])
+-----------------------------------------------------
