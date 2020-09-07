@@ -1,0 +1,29 @@
+The prediction is tensor([[1.]], grad_fn=<AddBackward0>)
+the shape of x1 is:  torch.Size([2, 1])
+The prediction for multiple input values is:  tensor([[1.],
+        [3.]], grad_fn=<AddBackward0>)
+The parameters w and b are:
+ [Parameter containing:
+tensor([[0.5153]], requires_grad=True), Parameter containing:
+tensor([-0.4414], requires_grad=True)]
+My Python dictionary:  OrderedDict([('weight', tensor([[0.5153]])), ('bias', tensor([-0.4414]))])
+Keys:  odict_keys(['weight', 'bias'])
+Values:  odict_values([tensor([[0.5153]]), tensor([-0.4414])])
+Weight:  Parameter containing:
+tensor([[0.5153]], requires_grad=True)
+Bias:  Parameter containing:
+tensor([-0.4414], requires_grad=True)
+The prediction using class linear is:  tensor([[0.0739]], grad_fn=<AddmmBackward>)
+The prediction of multiple input values using class linear: 
+ tensor([[0.0739],
+        [0.5891]], grad_fn=<AddmmBackward>)
+The parameters using custom module:  [Parameter containing:
+tensor([[-0.1939]], requires_grad=True), Parameter containing:
+tensor([0.4694], requires_grad=True)]
+Linear model using custom module:  Linear(in_features=1, out_features=1, bias=True)
+The prediction using custom module for single value:  tensor([[0.2755]], grad_fn=<AddmmBackward>)
+The prediction using custom module for multiple value:  tensor([[0.2755],
+        [0.0816]], grad_fn=<AddmmBackward>)
+Python dictionary:  OrderedDict([('linear.weight', tensor([[-0.1939]])), ('linear.bias', tensor([0.4694]))])
+keys:  odict_keys(['linear.weight', 'linear.bias'])
+values:  odict_values([tensor([[-0.1939]]), tensor([0.4694])])
