@@ -1,4 +1,20 @@
 # Building Deep Learning Models with TensorFlow
+
+Please note: Most of the programs of the course are done using TensorFlow 1.X and 
+now the whole main focus has been shifted to TensorFlow 2.X.
+
+Some general program in Module 1 are done by:
+
+```python      
+    import tensorflow.compat.v1 as tf
+    tf.disable_v2_behavior() 
+```
+
+But the above technique may not be available after certain time, so instead of course
+lab programs, general programs based on CNN, RNN, and Autocoders are provided for both 
+versions to learn and understand the general shift from V1 to V2.
+
+
 * Module 1 introduces the concept of tensorflow, deep learning and deep neural netoworks. It consists of certain lab exercises such as usage of tensorflow in: genral mathematical
 operations, Linear Regression, and Logistic Regression
 
