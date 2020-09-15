@@ -14,12 +14,15 @@ But the above technique may not be available after certain time, so instead of c
 lab programs, general programs based on CNN, RNN, and Autocoders are provided for both 
 versions to learn and understand the general shift from V1 to V2.
 
+All general differences between both versions is given in TensorFlowV1V2.md file
 
-* Module 1 introduces the concept of tensorflow, deep learning and deep neural netoworks. It consists of certain lab exercises such as usage of tensorflow in: genral mathematical
-operations, Linear Regression, and Logistic Regression
+
+* Module 1 introduces the concept of tensorflow, deep learning and deep neural netoworks. It consists of certain lab exercises such as usage of tensorflow in: general mathematical operations, Linear Regression, and Logistic Regression.
+* Module 2 covers building blocks of Convolution Neural Networks (CNN) which as supervised learning models. Programs related to MNIST data images is written using both versions of tensorflow for better understanding. 
 
 ## Table of contents
 * [Introduction to TensorFlow](#introduction-to-tensorflow)
+* [Convolution Neural Networks](#convolution-neural-networks)
 
 ### Introduction to TensorFlow
 
@@ -31,3 +34,12 @@ operations, Linear Regression, and Logistic Regression
   * Lab1_TensorFlow_LinearRegression.txt and [Graphs](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module1/Lab1_TensorFlow_LinearRegression_Graphs.pdf) 
 * Dataset Files:
   * Linear Regression - [Fuel Consumption CO2](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module1/FuelConsumptionCo2.csv)
+
+
+### Convolution Neural Networks
+
+* Jupyter files: 
+  * [TensorFlow_V1_CNN_SimpleVersion.ipynb](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V1_CNN_SimpleVersion.ipynb)
+  * [TensorFlow_V2_CNN_SimpleVersion.ipynb](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V2_CNN_SimpleVersion.ipynb)
+* Dataset:
+  * [MNIST](http://yann.lecun.com/exdb/mnist/)
