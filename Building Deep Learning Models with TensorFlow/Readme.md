@@ -39,7 +39,7 @@ All general differences between both versions is given in TensorFlowV1V2.md file
 ### Convolution Neural Networks
 
 * Jupyter files: 
-  * [TensorFlow_V1_CNN_SimpleVersion.ipynb](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V1_CNN_SimpleVersion.ipynb)
-  * [TensorFlow_V2_CNN_SimpleVersion.ipynb](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V2_CNN_SimpleVersion.ipynb)
+  * [TensorFlow_V1_CNN_RawVersion.ipynb](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V1_CNN_RawVersion.ipynb)
+  * [TensorFlow_V2_CNN_APIsVersion.ipynb](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V2_CNN_APIsVersion.ipynb)
 * Dataset:
   * [MNIST](http://yann.lecun.com/exdb/mnist/)
