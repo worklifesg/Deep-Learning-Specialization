@@ -38,9 +38,13 @@ All general differences between both versions is given in TensorFlowV1V2.md file
 
 ### Convolution Neural Networks
 
+RAW files means the concept of weights and biases is used to initialize each layer and used to build and train the model.
+APIs file means layers/estimators are used to nitialize each layer and used to build and train the model.
+
 * Jupyter files: 
   * [TensorFlow_V1_CNN_RawVersion](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V1_CNN_RawVersion.ipynb)
   * [TensorFlow_V1_CNN_APIsVersion](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V1_CNN_APIsVersion.ipynb)
   * [TensorFlow_V2_CNN_APIsVersion](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V2_CNN_APIsVersion.ipynb)
+  * [TensorFlow_V2_CNN_RawVersion](https://github.com/worklifesg/Deep-Learning-Specialization/blob/master/Building%20Deep%20Learning%20Models%20with%20TensorFlow/Module2/TensorFlow_V2_CNN_RawVersion.ipynb)
 * Dataset:
   * [MNIST](http://yann.lecun.com/exdb/mnist/)
